@@ -1,0 +1,7 @@
+Run
+
+docker run \
+-e DISPLAY=unix$DISPLAY \
+-v /tmp/.X11-unix:/tmp/.X11-unix \
+-v /root/bat.conf:/etc/bacula/bat.conf \
+danniel/bacula-bat
