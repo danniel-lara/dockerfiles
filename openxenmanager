@@ -1,0 +1,9 @@
+
+FROM ubuntu:16.04
+
+MAINTAINER Daniel Lara <lord.danniel@gmail.com>
+
+RUN   apt-get update 
+RUN   apt-get install openxenmanager -y
+
+CMD   openxenmanager
