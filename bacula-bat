@@ -5,3 +5,7 @@ MAINTAINER Daniel Lara <lord.danniel@gmail.com>
 RUN dnf install bacula-console-bat -y
 
 CMD bat
+
+
+
+https://hub.docker.com/r/danniel/bacula-bat
