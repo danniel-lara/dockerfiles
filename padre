@@ -1,0 +1,7 @@
+FROM fedora
+
+MAINTAINER Daniel Lara <lord.danniel@gmail.com>
+
+RUN dnf install padre -y
+
+CMD padre
